@@ -1,0 +1,47 @@
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  width: 450px;
+  height: 35px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  overflow: auto;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+  width: 50%;
+  position: relative;
+}
+
+.close {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  left: 95%;
+  bottom: 80%;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+.modal-content div {
+  margin-bottom: 10px;
+}
